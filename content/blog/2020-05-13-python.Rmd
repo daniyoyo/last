@@ -1,8 +1,8 @@
 ---
-title: blog
-author: ''
-date: '2020-05-12'
-slug: blog
+title: Python
+author: Danielle
+date: '2020-05-13'
+slug: python
 categories: []
 tags: []
 description: ''
@@ -13,7 +13,7 @@ Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her a
 
 
 To start, in my SDS 348 class we have been learning about the interaction between R code and Python. I thought it would be neat to discuss how they interact with each other. To begin I included an R code chunk to show you how the two can work together!!
-![](/blog/2020-05-12-python-blog_files/Tipsydoggo.JPG)
+
 R code:
 ```{r}
 library(reticulate)
