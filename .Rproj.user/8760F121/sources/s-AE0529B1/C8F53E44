@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "882079526",
     "id" : "C8F53E44",
-    "lastKnownWriteTime" : 1589320613,
-    "last_content_update" : 1589320613,
+    "lastKnownWriteTime" : 1589329550,
+    "last_content_update" : 1589329550724,
     "path" : "~/Desktop/Finale/content/blog/2020-05-12-python-blog.html",
     "project_path" : "content/blog/2020-05-12-python-blog.html",
     "properties" : {
-        "cursorPosition" : "9,0",
-        "scrollLine" : "0"
+        "cursorPosition" : "15,0",
+        "scrollLine" : "4"
     },
     "read_only" : false,
     "read_only_alternatives" : [
@@ -21,5 +21,5 @@
     "relative_order" : 8,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "html"
+    "type" : "r_markdown"
 }
