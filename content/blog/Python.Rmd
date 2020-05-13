@@ -1,12 +1,14 @@
 ---
-title: Python
-author: Danielle
-date: '2020-05-13'
-slug: python
-categories: []
-tags: []
-description: ''
+title: "Python"
+author: "Danielle De La Paz"
+date: "5/13/2020"
+output: html_document
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 Hey Y'all!
 Welcome to my first Python Blog Post!
 Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her as a present when I was studying for my DAT and we've been best friends ever since !!!
@@ -16,6 +18,7 @@ To start, in my SDS 348 class we have been learning about the interaction betwee
 
 R code:
 ```{r} 
+install.packages('reticulate',repos = "http://cran.us.r-project.org")
 library(reticulate)
 Tipsy<- "Tipsy is a Future Dental"
 ```
