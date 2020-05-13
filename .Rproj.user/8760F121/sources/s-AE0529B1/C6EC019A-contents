@@ -28,7 +28,7 @@ theme = "hugo-sustain"
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "file:///Users/danidelapaz/Desktop/Finale/content/blog/2020-05-12-python-blog.html"
+  url = "/blog/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
