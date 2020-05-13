@@ -1,0 +1,10 @@
+---
+title: yo
+author: Danielle De La Paz
+date: '2020-05-12'
+slug: yo
+categories: []
+tags: []
+description: ''
+---
+hi
