@@ -6,18 +6,19 @@
     <description>Recent content in Blogs on Danielle De La Paz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Python Blog</title>
-      <link>/blog/python-blog/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <title>Python&#39;</title>
+      <link>/blog/python/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/python-blog/</guid>
-      <description>Hey Y&#39;all! Welcome to my first Python Blog Post! Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her as a present when I was studying for my DAT and we&#39;ve been best friends ever since !!! To start, in my SDS 348 class we have been learning about the interaction between R code and Python. I thought it would be neat to discuss how they interact with each other.</description>
+      <guid>/blog/python/</guid>
+      <description>Hey Y&amp;rsquo;all! Welcome to my first Python Blog Post! Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her as a present when I was studying for my DAT and we&amp;rsquo;ve been best friends ever since !!!
+To start, in my SDS 348 class we have been learning about the interaction between R code and Python. I thought it would be neat to discuss how they interact with each other.</description>
     </item>
     
   </channel>

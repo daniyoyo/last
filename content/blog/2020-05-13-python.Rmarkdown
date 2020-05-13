@@ -1,11 +1,11 @@
 ---
-title: "Python"
-author: "Danielle"
+title: Python
+author: Danielle
 date: '2020-05-13'
-description: ''
 slug: python
-tags: []
 categories: []
+tags: []
+description: ''
 ---
 Hey Y'all!
 Welcome to my first Python Blog Post!
@@ -15,7 +15,7 @@ Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her a
 To start, in my SDS 348 class we have been learning about the interaction between R code and Python. I thought it would be neat to discuss how they interact with each other. To begin I included an R code chunk to show you how the two can work together!!
 
 R code:
-```{r}
+```{r} 
 library(reticulate)
 Tipsy<- "Tipsy is a Future Dental"
 ```

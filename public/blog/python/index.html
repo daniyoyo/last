@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Danielle De La Paz" />
+    <meta name="description" content="Describe your website">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Python&#39;</title>
+    <meta name="generator" content="Hugo 0.70.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="Danielle%20De%20La%20Paz%20Resume%20Finalized%20updated.pdf">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="/blog/python/">Python&#39;</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          May 13, 2020
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>Hey Y&rsquo;all!
+Welcome to my first Python Blog Post!
+Before I dive right in, please enjoy this picture of my doggo Tipsy! I got her as a present when I was studying for my DAT and we&rsquo;ve been best friends ever since !!!</p>
+<p>To start, in my SDS 348 class we have been learning about the interaction between R code and Python. I thought it would be neat to discuss how they interact with each other. To begin I included an R code chunk to show you how the two can work together!!</p>
+<p>R code:</p>
+<pre><code class="language-{r}" data-lang="{r}">library(reticulate)
+Tipsy&lt;- &quot;Tipsy is a Future Dental&quot;
+</code></pre><p>Python code:</p>
+<pre><code class="language-{python}" data-lang="{python}">Tipsy=&quot;Doggo&quot;
+print(r.Tipsy,Tipsy)
+</code></pre><p>Hehehe as y&rsquo;all know I aspire to become a Dentist so I thought it would only be appropriate to include my bestie in the code. This code begins with an R chunk followed by  a python chunk, within the function &ldquo;print&rdquo; I was able to access the R defined object to make a complete sentence.</p>
+<p>Another cool feature in Python is finding how many times a certain instance occcurs within a string.
+Below are a couple examples of how python can take a long string and find how many times something occurs.</p>
+<p>The first thing were going to search for is exactly how many times does the word &ldquo;dog&rdquo; occur followed by anything.</p>
+<pre><code class="language-{python}" data-lang="{python}">import re
+x=&quot;dog doggy dogwalker dogggo odddog funnydog dogsgonewild wholetthedogsout&quot;
+re.findall(r&quot;dog.&quot;,x) 
+</code></pre><p>This shows that there are 8 matches of the word &ldquo;dog&rdquo; followed by anything.</p>
+<p>The next example were going to search for is exactly how many times the letter d appears followed by anything than the letter g occurs.</p>
+<pre><code class="language-{python}" data-lang="{python}">re.findall(r&quot;d.g&quot;,x)
+</code></pre><p>This example also shows that there are 8 matches of the letter &ldquo;d&rdquo; followed by anything than the letter &ldquo;g&rdquo;.</p>
+<p>Another cool python function is being able to filter a list with the function &ldquo;regex&rdquo;. In this example I will use a list with multiple strings and use filter to match the pattern I want from the list. This certain list is names I thought about naming tipsy before I got her. The pattern I am looking for is how many names start with the letter &ldquo;j&rdquo;.</p>
+<pre><code class="language-{python}" data-lang="{python}">import re 
+s=[&quot;june&quot;, &quot;junebug&quot;, &quot;july&quot;, &quot;bunny&quot;, &quot;martini&quot;, &quot;jane&quot;,&quot;joy&quot;]
+
+list(filter(lambda x: re.search(r'^j',x),s))
+</code></pre>
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/docs.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>
