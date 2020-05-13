@@ -1,13 +1,11 @@
 ---
-categories: 
-- projects
 title: "Projects"
 date: '2016-10-02T22:55:05-04:00'
-showpagemeta: false
-tags: 
-- projects
-title:Projects
+showpagemeta: no
+tags: projects
+categories:projects
 ---
+## Projects
 Here are some projects I have recently completed:
 
 - [Exploratory Data Analysis with Tidyverse Tools](/project1/)
