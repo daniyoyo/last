@@ -18,7 +18,7 @@ description: ''
 
 
 <meta name="author" content="Danielle De La Paz" />
-<img src= "Tipsydoggo.JPG">
+<img src= "Tipsydoggo2.PNG">
 
 
 <title>Python</title>
